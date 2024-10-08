@@ -3,7 +3,8 @@ import './Components.css';
 function SearchBarComp(){
     return(
         <div className="search-bar">
-                <h1>HELLO WORLD</h1>
+            <input type='text' placeholder='search....' className="search-input"></input>
+            <button type='submit' className='search-button'></button>
         </div>
     );
 }
