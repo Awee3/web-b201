@@ -8,6 +8,7 @@ function HeaderComp(){
     return( 
     <div className="header-comp">
         <SearchBarComp />
+        <ThemeToggleComp/>
     </div>
     );
 }

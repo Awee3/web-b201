@@ -1,5 +1,7 @@
 body {
     font-family: "Libre Franklin";
+    background-color: var(--background-color);
+    color: var(--textbdy-color);
   }
 
 .header-comp{
@@ -41,7 +43,26 @@ body {
     outline: none;
 }
 
+.theme-toggle{
+    background: none;
+    border: none;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-right: 80px;
+
+}
+
 @media screen {
     
 }
 
+/*nyoba buat dark light mode */
+:root{
+    --background-color:#fff;
+    --textbdy-color:#1f1f1f;
+}
+
+.dark{
+    --background-color:#1f1f1f;
+    --textbdy-color:#fff;
+}
