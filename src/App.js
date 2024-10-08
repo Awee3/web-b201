@@ -1,6 +1,9 @@
+import HeaderComp from "./components/HeaderComp";
 
 function App() {
-  return <div> hello world!</div>
+  return <div>
+    <HeaderComp />
+  </div>
     
 }
 
