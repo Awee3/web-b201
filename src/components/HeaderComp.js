@@ -10,7 +10,6 @@ function HeaderComp(){
     <div className="header-comp">
         <LogoComp />
         <SearchBarComp />
-        <FilterButtonComp />
         <ThemeToggleComp/>
         
     </div>
