@@ -109,3 +109,18 @@ body {
       height: 100px; 
     }
   }
+
+/* Logo Components */
+.logos{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: center;
+  align-items: center;
+  margin-left: 86px;
+}
+
+.logos img{
+  width: 80px;
+  height: 80px;
+}

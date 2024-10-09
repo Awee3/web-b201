@@ -3,7 +3,7 @@ import './Components.css';
 function FilterButtonComp(){
     return(
         <div className="filter-button-comp">
-        <h1>HELLO WORLD</h1>
+        <h1>Filter Button</h1>
 </div>
     );
 }
