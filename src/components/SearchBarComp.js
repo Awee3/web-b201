@@ -1,12 +1,15 @@
 import './Components.css';
 
-function SearchBarComp(){
-    return(
-        <div className="search-bar">
-            <input type='text' placeholder='search....' className="search-input"></input>
-            <button type='submit' className='search-button'></button>
-        </div>
+const SearchBarComp = ({ value, onChange }) => {
+    return (
+      <input
+        type="text"
+        value={value}
+        onChange={onChange}
+        placeholder="Search Docker files..."
+        className="search-bar"
+      />
     );
-}
+  };
 
 export default SearchBarComp
